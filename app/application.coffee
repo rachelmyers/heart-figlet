@@ -32,7 +32,7 @@ new Vue
           @figletText = res.text
 
     updateEmojiText: (text) ->
-      emojiText = text.replace(/\S/g, ':pizza:').replace(/[^\n\S]/g, ':cloud:')
+      emojiText = text.replace(/\S/g, ':heart:').replace(/[^\n\S]/g, '.')
       @emojiText = emojiText
 
     updatePrintEmojiUrls: (text) ->
